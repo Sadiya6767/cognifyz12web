@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML pagesteps</title>       <!--Task 1: Basic HTML PageSteps:-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body style=" border:black; border-radius:2px;" id="myDIV"> <!--Task 2: Styllling with inline CSS-->
+    <nav class="navbar">
+        <h4 style="font-size:60px; text-align:center; color:white; text-decoration:underline;">Happy Wash</h4>
+
+    </nav>
+    <img src="https://aftercareco.com/blog/wp-content/uploads/2023/05/washing-laundry-741x410.jpg">
+    <h1 style="font-style: italic; font-size:60px; ">BEST LAUNDRY</h1><br>
+
+    <p style="font-size: 30px; color:rgb(53, 11, 53); font-style:italic;">Laundry
+        is the washing of clothing and other textiles, and, more
+        broadly, their drying and ironing as well. Laundry has been part
+        of history since humans began to wear clothes, so the methods by
+        which different cultures have dealt with this universal human need
+        are of interest to several branche of scholarship.
+        We wash each customer’s clothes separately. Our focus on hygiene is the
+        biggest reason our laundry services are trusted by 15 lac+ customers.
+        Moreover, we follow all the Covid safety guidelines prescribed by WHO &
+        CDC. As a precautionary measure, we also use medical grade disinfectants
+        to sanitize each washing load.<br><br><br>
+    </p>
+    <div class="A">
+    </div>
+    <div>
+        <h3 style="font-size: 50px; text-align:center; margin-top:30px;">FULL RANGE OF LAUNDRY SERVICES</h3><br><br><br>
+        <img src="range.png" alt="Range" style="float: left; margin-left:100px;" width="800px" height="300px">
+        <img style="margin-right: 100px;"
+            src="https://tumbledry.in/wp-content/uploads/2022/02/Colorful-Laundry-Clothes.webp"><br><br><br>
+        <div>
+            <p style="font-size:30px; margin-top:400px; margin-left:80px; margin-right:80px;">
+                We have the full portfolio of laundry services in Haldwani – be it laundry for daily home wear, office
+                clothes or even for your woollen clothes, we can take care of it all. (Only washable woollen clothes are
+                processed under woollen laundry service. Dry Clean only clothes can’t be processed under woollen
+                laundry).<br><br>
+
+                Tumbledry offers three types of laundry services in Haldwani:<br><br>
+
+                1:- Wash & Fold<br>
+                2:-Wash & Steam Iron<br>
+                3:-Premium Laundry<br>
+                4:-You can choose any of them as per your needs.<br><br>
+
+                To provide World-class laundry service in Haldwani we use Swedish machines to wash and dry clothes. Then
+                Italian equipment is used to steam iron and give them crisp and wrinkle free finish. To ensure that
+                every
+                customer gets easy access to our high-quality laundry service, we provide free home pick-up and delivery
+                in
+                Haldwani. Express delivery option is also available on our laundry services in Haldwani.<br><br>
+            </p>
+        </div>
+        <div class="A"></div>
+
+        <!--Task 6 Form Styling and validation-->
+        <fieldset>
+            <h2 style="margin-top: 30px; margin-bottom:30px; font-size:60px;">Registration Form</h2>
+            <form style="color: rgb(53, 11, 53);" id="registrationForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <div class="error" id="usernameError"></div>
+                </div>
+                <div>
+                    <label for="phone no.">Phone No.:</label>
+                    <input type="text" id="phone no." name="phone no." required>
+                </div><br>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error" id="emailError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <div class="error" id="passwordError"></div>
+                </div>
+                <div>
+                    <label for="Address">Address:</label>
+                    <input type="text" id="Address" name="Address" required>
+                </div><br><br>
+                <button type="submit" onclick="myFunction()" >Register</button>
+            </form>
+        </fieldset>
+
+<div class="A"></div>
+    
+
+<!--Task 5: API Integration-->
+
+    <div class="container">
+        <h1 style="margin-top: 30px; margin-bottom:30px; font-size:60px;" >Users</h1>
+        <ul id="users-list"></ul>
+    </div>
+<script src="script.js"></script>
+
+</body>
+<footer class="footer">     <!--Task 7: Component Based stylling-->
+    <p class="text-center">copyright@2024 <a class="text-primary" href="#">Happy Wash</a></p>
+  </footer>
+</html>

@@ -1,0 +1,141 @@
+/*Task 3: Responsive Design*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(56, 25, 56);
+    height: 100px;
+    width: 100%;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+p{
+    margin-left: 20px;
+}
+img{
+    float: right;
+    margin-top: 40px;
+}
+.A {
+    background-color: rgb(35, 8, 35);
+    height: 3px;
+    width: 100%;
+    color: rgb(35, 8, 35);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f1d5f3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #1f1d1d;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #1f0429;
+    color: rgb(247, 217, 241);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e581f0;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.container{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color:rgb(56, 25, 56);
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    height: 60px;
+    text-align: center;
+}
+.footer a{
+    color: white;
+}
+
+
+/*Task 3: Responsive Design*/
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      background-color: rgb(203, 239, 197);
+    }  }
+
+
+
+
+
+#d1{
+    font-size: 30px;
+    color: #00ff40;
+    padding: 100px 350px;
+}    
